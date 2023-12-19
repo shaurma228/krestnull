@@ -1,0 +1,59 @@
+body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+	background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/570/ss_86d675fdc73ba10462abb8f5ece7791c5047072c.1920x1080.jpg?t=1702685169);
+	background-position: top;
+	background-size: cover;
+}
+.tb {
+	margin-top: 150px;
+	width: 600px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+.t {
+	width: 600px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.inner {
+	height: 180px;
+	width: 180px;
+	border-radius: 30px;
+	background-color: #037343;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+	color: white;
+	font-size: 100px;
+	font-family: fantasy;
+}
+.inner:hover {
+	height: 180px;
+	width: 180px;
+	border-radius: 30px;
+	background-color: #126B2E;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
